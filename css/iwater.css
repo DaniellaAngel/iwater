@@ -1,0 +1,368 @@
+.m-tabbar:after{
+  border-top:s 1px solid #4F9D9D;
+}
+.btn-pace{
+	background-color:#4F9D9D;
+  color: #FFF;
+}
+.iwater-navbar {
+  /*background-color:#4F9D9D;*/
+  border-bottom: 1px solid #4F9D9D;
+}
+.iwater-navbar .navbar-title{
+  color: #4F9D9D;
+}
+.iwater-login-logo {
+	display: block;
+	width: 4.5rem;
+	margin: 0.5rem auto 0 auto;
+	border: 1px solid #4F9D9D;
+	border-radius: 50%;
+}
+.iwater-login-form {
+	border: 1px solid #4F9D9D;
+	margin: 0 0.25rem;
+}
+.iwater-pagetitle {
+  font-size: .68rem;
+  color: #FF5E53;
+  text-align: center;
+  padding: .3rem 0 .3rem;
+}
+.iwater-detail-title {
+  color: #888;
+  font-size: .28rem;
+  margin-bottom: .5rem;
+  font-weight: normal;
+  line-height: 0.42rem;
+  text-align: center;
+}
+.iwater-home-camera {
+  display: block;
+  width: 100%;
+  background: url("../images/camera.jpeg");
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  height: 8.5rem;
+}
+.iwater-home-camera input {
+  width: 100%;
+  height: 8.5rem;
+  opacity: 0;
+}
+.iwater-texarea {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+.iwater-textarea textarea{
+  margin-top: .35rem;
+  padding: .2rem;
+  height: 2.5rem;
+}
+.iwater-loading {
+  margin-bottom: 20px;
+}
+.iwater-loading li a {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.iwater-loading li img {
+  width: .6rem;
+  height: .6rem;
+  display: inline-block;
+}
+.iwater-tip {
+  color: #B1B1B1;
+  font-size: .24rem;
+  padding: .2rem .24rem .4rem;
+  line-height: 18px;
+  font-family: \5fae\8f6f\96c5\9ed1;
+  position: relative;
+}
+.iwater-tip:after {
+  content: '';
+  position: absolute;
+  bottom: .2rem;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px dashed #B2B2B2;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.iwater-tip i {
+  margin-right: 3px;
+}
+.iwater-tip a {
+  color: #5AA700;
+}
+.iwater-upload {
+  overflow: hidden;
+}
+.iwater-upload li {
+  width: 1rem;
+  height: 1rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+.iwater-upload li:last-child {
+  margin-right: 0;
+}
+.iwater-upload-big {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.4rem;
+}
+.iwater-upload-rectangle {
+  width: 4rem;
+  height: 2rem;
+  margin-top: 0.4rem;
+}
+.iwater-components {
+  background-color: #FFF;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.iwater-upload {
+  overflow: hidden;
+}
+.iwater-upload li {
+  float: left;
+}
+.iwater-upload li img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: .2rem;
+}
+.iwater-pitch {
+  margin-top: .5rem;
+}
+.iwater-small-pitch {
+  /*background-color:#4F9D9D;*/
+ 
+}
+.iwater-small-pitch span{
+   color: #4F9D9D;
+}
+.iwater-progressbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 .24rem;
+}
+.iwater-spinner {
+  background-color: #FFF;
+  padding: .24rem;
+  font-size: 0;
+}
+.iwater-spinner-title {
+  font-size: .26rem;
+  color: #888;
+  display: block;
+  margin-bottom: .1rem;
+}
+.iwater-badege {
+  padding: 0 .24rem .5rem .24rem;
+  background-color: #FFF;
+}
+.iwater-badege .iwater-badege-title {
+  font-size: .26rem;
+  padding-top: .5rem;
+  padding-bottom: .15rem;
+  color: #777;
+  position: relative;
+}
+.iwater-badege .iwater-badege-title:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.iwater-badege .badge {
+  margin-right: .1rem;
+}
+.iwater-icons [class^="icon-"]:before,
+.iwater-icons [class*=" icon-"]:before {
+  font-size: .6rem;
+  color: #FF685D;
+}
+.iwater-progress-line {
+  height: .15rem;
+  width: 100%;
+}
+.iwater-progress-cricle {
+  width: 2rem;
+  height: 2rem;
+}
+.nav-center .nav-title {
+  font-family: \5fae\8f6f\96c5\9ed1;
+}
+@font-face {
+  font-family: 'iwater-icons';
+  src: url('http://at.alicdn.com/t/font_1474965703_1820433.ttf') format('truetype');
+}
+[class^="iwater-icons-"]:before,
+[class*=" iwater-icons-"]:before {
+  font-family: 'iwater-icons';
+  font-size: .5rem;
+}
+.iwater-icons-weixin:before {
+  content: '\e60b';
+}
+.iwater-icons-me:before {
+  content: '\e610';
+}
+.iwater-icons-contact:before {
+  content: '\e60c';
+}
+.iwater-icons-discover:before {
+  content: '\e611';
+}
+.iwater-icons-phone:before {
+  content: '\e60e';
+}
+.iwater-icons-tel:before {
+  content: '\e616';
+}
+.iwater-icons-like:before {
+  content: '\e60d';
+}
+.iwater-icons-order:before {
+  content: '\e60f';
+}
+.iwater-icons-button:before {
+  content: '\e602';
+  color: #FF685E;
+}
+.iwater-icons-sendcode:before {
+  content: '\e60a';
+  color: #8B78E2;
+}
+.iwater-icons-dialog:before {
+  content: '\e603';
+  color: #3CC51E;
+}
+.iwater-icons-keyboard:before {
+  content: '\e613';
+  color: #FC746C;
+}
+.iwater-icons-cell:before {
+  content: '\e600';
+  color: #FC746C;
+}
+.iwater-icons-tabs:before {
+  content: '\e607';
+  color: #FF8D20;
+}
+.iwater-icons-list:before {
+  content: '\e605';
+  color: #FF8D20;
+}
+.iwater-icons-actionsheet:before {
+  content: '\e601';
+  color: #3CCD1C;
+}
+.iwater-icons-progressbar:before {
+  content: '\e612';
+  color: #FF8D20;
+}
+.iwater-icons-icons:before {
+  content: '\e604';
+  color: #8B78E2;
+}
+.iwater-icons-tabbar:before {
+  content: '\e606';
+  color: #3CC51E;
+}
+.iwater-icons-badge:before {
+  content: '\e608';
+  color: #EF4F4F;
+}
+.iwater-icons-grids:before {
+  content: '\e609';
+  color: #8B78E2;
+}
+.iwater-icons-slider:before {
+  content: '\e614';
+  color: #8B78E2;
+}
+.iwater-icons-spinner:before {
+  content: '\e615';
+  color: #FF8D20;
+}
+.iwater-icons-cityselect:before {
+  content: '\e617';
+  color: #FF685E;
+}
+@font-face {
+  font-family: 'iwater-category-icons';
+  src: url('http://at.alicdn.com/t/font_1477296366_4593668.ttf') format('truetype');
+}
+[class^="iwater-icons-category"]:before,
+[class*=" iwater-icons-category"]:before {
+  font-family: 'iwater-category-icons';
+  font-size: .48rem;
+  color: #5B5D5C;
+}
+.iwater-icons-category1:before {
+  content: '\E604';
+}
+.iwater-icons-category2:before {
+  content: '\E602';
+}
+.iwater-icons-category3:before {
+  content: '\E605';
+}
+.iwater-icons-category4:before {
+  content: '\E603';
+}
+.iwater-icons-category5:before {
+  content: '\E607';
+}
+.iwater-icons-category6:before {
+  content: '\E600';
+}
+.iwater-icons-category7:before {
+  content: '\E606';
+}
+.iwater-icons-category8:before {
+  content: '\E601';
+}
+.iwater-login-header{
+  display: block;
+  width: 3rem;
+  margin: 0.5rem auto 0 auto;
+  border: 1px solid #4F9D9D;
+  border-radius: 50%;
+}

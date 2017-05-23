@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>小7识花</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link rel="stylesheet" href="css/ydui.css?rev=@@hash"/>
+    <link rel="stylesheet" href="css/iwater.css"/>
+    <script src="js/ydui.flexible.js"></script>
+</head>
+<body>
+<section class="g-flexview">
+    <div class="g-scrollview">
+        <img class="iwater-login-logo" src="images/hua1.jpeg" alt="小七识花">
+        <h1 class="iwater-pagetitle">小7识花</h1>
+        <div class="m-cell iwater-login-form">
+            <div class="cell-item">
+                <div class="cell-left">用户名：</div>
+                <div class="cell-right"><input type="text" pattern="" class="cell-input" placeholder="请输入用户名" autocomplete="off" /></div>
+            </div>
+            <div class="cell-item">
+                <div class="cell-left">密&nbsp;&nbsp;&nbsp;&nbsp;码：</div>
+                <div class="cell-right"><input type="password" pattern="" class="cell-input" placeholder="请输入密码" autocomplete="off" /></div>
+            </div>
+        </div>
+        <div class="m-button">
+            <button type="button" class="btn-block btn-pace" id="login">登录</button>
+            <button type="submit" class="btn-block btn-pace" id="install">注册</button>
+        </div>
+    </div>
+</section>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/ydui.js"></script>
+<script>(!YDUI.device.isMobile && navigator.userAgent.indexOf('Firefox') >= 0) && YDUI.dialog.alert('PC端请使用谷歌内核浏览器查看！');</script>
+<script>
+    !function (win, $) {
+        var dialog = win.YDUI.dialog;
+
+        /* 普通确认框 */
+        $('#login').on('click', function () {
+            window.location.href='html/home.html';
+        });
+        $('#install').on('click', function () {
+            window.location.href='html/signIn.html';
+        });
+    }(window, jQuery);
+</script>
+</body>
+</html>
